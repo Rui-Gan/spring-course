@@ -15,7 +15,7 @@
             <property...>
         </bean>
 
-     2.引用类型的set注入：spring调用类的set方法
+        2）引用类型的set注入：spring调用类的set方法
         <bean id="xx" class="yyy">
             <property name="属性名字" ref="bean的id（对象的名称）" />
         </bean>
